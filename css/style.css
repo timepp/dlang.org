@@ -770,12 +770,10 @@ div#content
 {
     text-align: justify;
     min-height: 440px;
-    margin-left: 18em;
     /*
         = 16em [#navigation's width]
         + 2em [inter-column space]
     */
-    margin-right: 1em;
     padding: 1.6em;
     padding-top: 1.3em;
     padding-bottom: 1em;

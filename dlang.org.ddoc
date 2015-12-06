@@ -73,28 +73,12 @@ $(EXTRA_HEADERS)
 </head>
 <body id='$(TITLE)' class='$(BODYCLASS)'>
 $(SCRIPT document.body.className += ' have-javascript')
-$(DIVID top,
-	$(DIVID header,
-		<img src="$(STATIC images/hamburger.svg)" id="mobile-hamburger">
-		<a class="logo" href="$(ROOT)"><img id="logo" width="125" height="95" alt="D Logo" src="$(STATIC images/dlogo.svg)"></a>
-		<span id="d-language-mobilehelper"><a href="$(ROOT)" id="d-language">D Programming Language</a></span>
-	)
-)
-$(DIVID navigation,
-    $(SEARCH_BOX)
-    $(NAVIGATION)
-)
 $(LAYOUT_PREFIX)
 $(DIVCID $(HYPHENATE), content,
-    $(PAGE_TOOLS)
     $(LAYOUT_TITLE)
     $(BODY_PREFIX)
     $(BODY)
 )
-$(FOOTER)
-$(COMMON_SCRIPTS)
-$(LAYOUT_SUFFIX)
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </body>
 </html>
 _=
